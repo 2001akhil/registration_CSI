@@ -17,7 +17,13 @@ router.post('/home',(req,res,next)=>{
   form_programming_knowledge=req.body.programming_knowledge;
   form_web_know=req.body.web_knowledge;
   form_reach=req.body.Reach;
-  form_question=req.body.questions;
+  
+  //form_question=req.body.questions;
+  
+  /*field adding start*/
+  form_role=req.body.role;
+  form_prevexp=req.body.exp;
+  /*field adding stop*/
   
    const date=new Date()
   console.log(date)
